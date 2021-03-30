@@ -1,0 +1,54 @@
+header{
+    text-align: -webkit-center;
+    
+}
+header h1{
+    color:whitesmoke;
+    text-align: center;
+    border: 15px double #E57BE5;
+    border-radius: 9px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    width: 30%;
+    font-size: 40px;  
+}
+body{
+    background-color:#6b0772;
+}
+.CardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 4%; 
+}
+
+.Card{
+    width: 27%;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-left: 2%;;
+    border-bottom: 5px solid #C0FF38;
+    border-left: 1px solid #C0FF38;
+    border-top: 1px solid #C0FF38;
+    border-right: 1px solid #C0FF38;
+    border-radius: 12px;
+    background-color:  #E57BE5;
+    padding: 1%;
+    color: white;
+}
+.Card h2{
+    color:#6b0772;
+}
+footer h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+footer p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+}
